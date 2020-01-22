@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from "./components/Nav";
 import Card from "./components/Card";
 import CardHolder from "./components/CardHolder";
+import LAndC from "./components/LAndC";
 import { Container, Row, Col } from "./components/Grid";
 import SkillHolder from "./components/SkillHolder";
 import SkillLogo from "./components/SkillLogo";
@@ -47,6 +48,13 @@ function App() {
               <Card title="Coding Hang-Man" link="https://bigecire.github.io/Coding-Hang-Man/" gitHub="https://github.com/BigECire/Coding-Hang-Man" image={Hangman}>
 
               </Card>
+            </CardHolder>
+          </Col>
+        </Row>
+        <Row>
+          <Col size="s12">
+            <CardHolder title="My Links and Contacts">
+              <LAndC></LAndC>
             </CardHolder>
           </Col>
         </Row>
