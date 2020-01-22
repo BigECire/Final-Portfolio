@@ -1,11 +1,11 @@
 import React from "react";
 
-function SkillLogo({ image, children }) {
+function SkillLogo({ image, name }) {
     return (
         <li>
             <div class="collapsible-header">
                 <img src={image} alt="" class="circle responsive-img" />
-                {children}
+                {name}
             </div>
         </li>
     );
