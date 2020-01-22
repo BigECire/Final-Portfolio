@@ -13,8 +13,8 @@ function Card({ title, link, gitHub, image, children }) {
                     <span class="card-title">{title}</span>
                 </div>
                 <div class="card-action">
-                    <a href={link}>Wedsite</a>
-                    <a href={gitHub}>GitHub</a>
+                    <a className="orange-text text-accent-4" href={link}>Wedsite</a>
+                    <a className="orange-text text-accent-4" href={gitHub}>GitHub</a>
                 </div>
             </div>
         </Col>
