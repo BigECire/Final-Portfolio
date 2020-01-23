@@ -3,14 +3,14 @@ import { Container, Row, Col } from "../Grid";
 
 function Card({ title, link, gitHub, image, children }) {
     return (
-        <Col>
+        <Col size="s4">
             <div class="card">
                 <div class="card-image">
                     <img src={image} />
                 </div>
                 <div class="card-content">
-                    <p>{children}</p>
-                    <span class="card-title">{title}</span>
+                    <span class="card-title flow-text">{title}</span>
+                    <p class="flow-text">{children}</p>
                 </div>
                 <div class="card-action">
                     <a className="orange-text text-accent-4" href={link}>Wedsite</a>

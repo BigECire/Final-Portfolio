@@ -38,25 +38,21 @@ function App() {
         <Row>
           <Col size="s12">
             <CardHolder title="Skills">
-              <Col size="s3">
-                <SkillHolder>
-                  <SkillLogo image={ReactImage} name="React" ></SkillLogo>
-                  <SkillLogo image={Nodejs} name="Node.js" ></SkillLogo>
-                </SkillHolder>
-              </Col>
-              <Col size="s3">
+              <Col size="s4">
                 <SkillHolder>
                   <SkillLogo image={Html5} name="HTML 5" ></SkillLogo>
                   <SkillLogo image={Firebase} name="Firebase" ></SkillLogo>
+                  <SkillLogo image={Nodejs} name="Node.js" ></SkillLogo>
                 </SkillHolder>
               </Col>
-              <Col size="s3">
+              <Col size="s4">
                 <SkillHolder>
                   <SkillLogo image={CSS3} name="CSS 3" ></SkillLogo>
                   <SkillLogo image={MongoDB} name="MongoDB" ></SkillLogo>
+                  <SkillLogo image={ReactImage} name="React" ></SkillLogo>
                 </SkillHolder>
               </Col>
-              <Col size="s3">
+              <Col size="s4">
                 <SkillHolder>
                   <SkillLogo image={JavaScript} name="JavaScript" ></SkillLogo>
                   <SkillLogo image={MySQL} name="MySQL" ></SkillLogo>
@@ -69,13 +65,13 @@ function App() {
           <Col size="s12">
             <CardHolder title="Projects">
               <Card title="Fruiti Trutti Trivia" link="https://bigecire.github.io/Fruiti-Trutti-Trivia/" gitHub="https://github.com/BigECire/Fruiti-Trutti-Trivia" image={Fruit}>
-
+                This is a fruit themed trivia game.
               </Card>
               <Card title="Starwars RPG" link="https://bigecire.github.io/Starwars-RPG/" gitHub="https://github.com/BigECire/Starwars-RPG" image={StarWars}>
-
+                This is a game that allows you to play within the StarWars empire.
               </Card>
               <Card title="Coding Hang-Man" link="https://bigecire.github.io/Coding-Hang-Man/" gitHub="https://github.com/BigECire/Coding-Hang-Man" image={Hangman}>
-
+                This is a game inspired by the original Hang Man. It’s a coding Hang Man.
               </Card>
             </CardHolder>
           </Col>
