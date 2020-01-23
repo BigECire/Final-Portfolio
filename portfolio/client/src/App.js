@@ -10,6 +10,13 @@ import ReactImage from "./images/logo192.png";
 import Fruit from "./images/Fruit.jpg";
 import StarWars from "./images/StarWars.png";
 import Hangman from "./images/Hangman.png";
+import MongoDB from "./images/MongoDB.png";
+import Html5 from "./images/html5.png";
+import CSS3 from "./images/css3.png";
+import MySQL from "./images/MySQL.png";
+import JavaScript from "./images/javascript.png";
+import Nodejs from "./images/nodejs.png";
+import Firebase from "./images/firebase.png";
 import Me from "./images/Me.jpg";
 import './App.css';
 
@@ -21,18 +28,40 @@ function App() {
         <Row>
           <Col size="s12">
             <CardHolder title="Bio">
-            <img src={Me} />
+              <img src={Me} />
               <p>
                 Eric is a recent graduate of Eckerd College with a Bachelor Degree in Physics.  He is a native of Nashville, Tennessee, and was a graduate of Father Ryan High School.  His interests include canoeing, climbing, and coding.  Eric was active in scouting and is an Eagle Scout.  He is a member of Woodland Presbyterian Church where he volunteers in the children’s program.</p>
             </CardHolder>
           </Col>
         </Row>
+        {/* HTML, CSS, JavaScript, jQuery */}
         <Row>
           <Col size="s12">
             <CardHolder title="Skills">
-              <SkillHolder>
-                <SkillLogo image = {ReactImage} name = "React" ></SkillLogo>
-              </SkillHolder>
+              <Col size="s3">
+                <SkillHolder>
+                  <SkillLogo image={ReactImage} name="React" ></SkillLogo>
+                  <SkillLogo image={Nodejs} name="Node.js" ></SkillLogo>
+                </SkillHolder>
+              </Col>
+              <Col size="s3">
+                <SkillHolder>
+                  <SkillLogo image={Html5} name="HTML 5" ></SkillLogo>
+                  <SkillLogo image={Firebase} name="Firebase" ></SkillLogo>
+                </SkillHolder>
+              </Col>
+              <Col size="s3">
+                <SkillHolder>
+                  <SkillLogo image={CSS3} name="CSS 3" ></SkillLogo>
+                  <SkillLogo image={MongoDB} name="MongoDB" ></SkillLogo>
+                </SkillHolder>
+              </Col>
+              <Col size="s3">
+                <SkillHolder>
+                  <SkillLogo image={JavaScript} name="JavaScript" ></SkillLogo>
+                  <SkillLogo image={MySQL} name="MySQL" ></SkillLogo>
+                </SkillHolder>
+              </Col>
             </CardHolder>
           </Col>
         </Row>

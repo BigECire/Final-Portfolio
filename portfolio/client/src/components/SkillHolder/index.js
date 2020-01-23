@@ -2,7 +2,7 @@ import React from "react";
 
 function SkillHolder({ children }) {
     return (
-        <ul class="collapsible">
+        <ul class="collection">
             {children}
         </ul>
     );
